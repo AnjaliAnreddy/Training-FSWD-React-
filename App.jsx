@@ -139,16 +139,40 @@
 
 // ! props drilling examples
 
-import React from 'react'
-import Child1 from './propsexample/Child1'
+// import React from 'react'
+// import Child1 from './propsexample/Child1'
 
-const App = () => {
-  return (
-    <div className='app'>App
-      <hr />
-      <Child1 university="MRU"/>
+// const App = () => {
+//   return (
+//     <div className='app'>App
+//       <hr />
+//       <Child1 university="MRU"/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React,{Component}from 'react'
+// import CBCStateEx from './stateexamples/CBCStateEx';
+// const App=()=>{
+//   return(
+//     <div className="App">
+//       <CBCStateEx/>
+//     </div>
+//   )
+// }
+
+// export default App;
+
+import React ,{Component}from 'react';
+import FBCStateEx from './stateexamples/FBCStateEx';
+const App=()=>{
+  return(
+    <div className="App">
+      <FBCStateEx/>
     </div>
   )
 }
-
-export default App
+export default App;
