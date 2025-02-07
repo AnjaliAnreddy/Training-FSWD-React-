@@ -154,25 +154,19 @@
 // export default App
 
 
-// import React,{Component}from 'react'
-// import CBCStateEx from './stateexamples/CBCStateEx';
-// const App=()=>{
-//   return(
-//     <div className="App">
-//       <CBCStateEx/>
-//     </div>
-//   )
-// }
+// ! state
+import React from 'react'
+import CBCStateEx from './stateexamples/CBCStateEx'
+import FBCStateEx from './stateexamples/FBCStateEx'
 
-// export default App;
-
-import React ,{Component}from 'react';
-import FBCStateEx from './stateexamples/FBCStateEx';
-const App=()=>{
-  return(
-    <div className="App">
+const App = () => {
+  return (
+    <div>
+     
+      {/* <CBCStateEx/> */}
       <FBCStateEx/>
     </div>
   )
 }
-export default App;
+
+export default App
