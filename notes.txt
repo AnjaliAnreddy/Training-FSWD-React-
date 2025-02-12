@@ -152,7 +152,46 @@ basic hooks are:-
 1.useState()
 2.useEffect()
 3.useContext()
-
+4.useRef()
 
 Note:- 
 this keyword :- it will target current object.
+
+2.useEffect():-
+***************
+- useEffect hook is a function that allows developers to do some necessary side effects such as 
+    setTimeout , api fetching, updating the state etc...
+
+syntax:-  useEffect(callbackfunction , dependency);
+
+
+Note:-// !object destructuring
+// let obj={
+//     a:1,
+//     b:2,
+//     c:3
+// };
+// console.log(obj.a);
+// console.log(obj.b);
+// console.log(obj.c);
+
+// !object destructuring
+// let {a , b , c} = obj;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+<React.Fragment></React.Fragment>:-
+- it is act as a parent element for the jsx element, but it wont create any extra node on the dom tree.
+- empty fragment :-  <></>:- you can pass this as a parent but we cannot give key prop.
+
+- List & keys:- in react , the listed items from map method should have a unique key prop ,to 
+    kno the updations that is happening in the lists such as adding , removing etc...
+
+3.useRef():-
+************
+- this hook is used to target the real dom elements.
+- we should avoid using of ref more except some situations like media controllings , animations etc...
+
+4.useContext() :- to avoid props drilling we us this hook.
+-  it will pass the data directly to the components without passing down to the child components(props drlling).

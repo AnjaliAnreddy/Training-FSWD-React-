@@ -155,18 +155,78 @@
 
 
 // ! state
+// import React from 'react'
+// import CBCStateEx from './stateexamples/CBCStateEx'
+// import FBCStateEx from './stateexamples/FBCStateEx'
+
+// const App = () => {
+//   return (
+//     <div>
+     
+//       {/* <CBCStateEx/> */}
+//       <FBCStateEx/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+//! Form
+// import React from 'react'
+// import MyForm from './components/myForm'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <MyForm />
+//     </div>
+//   )
+// }
+// export default App
+
+
+
+
+// ! basic hooks
+// import React from 'react'
+// import ExUseEffect from './hooks/ExUseEffect'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <ExUseEffect/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import RefExamples from './hooks/RefExamples'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <RefExamples/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// ! context api example
 import React from 'react'
-import CBCStateEx from './stateexamples/CBCStateEx'
-import FBCStateEx from './stateexamples/FBCStateEx'
+import ContextC1 from './contextapi/ContextC1'
+import ContextAPI from './contextapi/ContextAPI'
 
 const App = () => {
   return (
     <div>
-     
-      {/* <CBCStateEx/> */}
-      <FBCStateEx/>
+     <ContextAPI>
+      <ContextC1/>
+     </ContextAPI>
     </div>
   )
 }
 
-export default App
+ export default App
